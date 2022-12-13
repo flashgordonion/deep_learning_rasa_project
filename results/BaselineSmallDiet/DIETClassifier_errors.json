@@ -1,0 +1,4406 @@
+[
+  {
+    "text": "Saturday leaving Cambridge anytime after 20:00 please",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Saturday",
+        "entity": "train-day"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "20:00",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5317752361297607,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for an expensive restaurant in the centre if you could help me.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "expensive",
+        "entity": "restaurant-pricerange"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "centre",
+        "entity": "restaurant-area"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.522189199924469,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want a restaurant in the north of Cambridge that is within a moderate price range.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "north",
+        "entity": "restaurant-area"
+      },
+      {
+        "start": 63,
+        "end": 71,
+        "value": "moderate",
+        "entity": "restaurant-pricerange"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 63,
+        "end": 71,
+        "confidence_entity": 0.5198245048522949,
+        "value": "moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking to go to dinner tonight and am in the mood for some good Bistro in the centre of town, can you find me some options?",
+    "entities": [
+      {
+        "start": 69,
+        "end": 75,
+        "value": "Bistro",
+        "entity": "restaurant-food"
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "value": "centre",
+        "entity": "restaurant-area"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 83,
+        "end": 89,
+        "confidence_entity": 0.5596277117729187,
+        "value": "centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+    "entities": [
+      {
+        "start": 76,
+        "end": 85,
+        "value": "expensive",
+        "entity": "restaurant-pricerange"
+      },
+      {
+        "start": 86,
+        "end": 91,
+        "value": "hotel",
+        "entity": "hotel-type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 76,
+        "end": 85,
+        "confidence_entity": 0.509276270866394,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, I would like an expensive hotel with free parking.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Yes",
+        "entity": "hotel-parking"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "expensive",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.4568651020526886,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "could you provide details for something in the cheap price range?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 52,
+        "value": "cheap",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Actually, yes. We are traveling into the northern part of town.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "north",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Thanks! I'm also looking for a hotel near that restaurant.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "hotel",
+        "entity": "hotel-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Oh, ok. I really don't want to stay at a guesthouse though. Can you recommend a hotel instead?",
+    "entities": [
+      {
+        "start": 80,
+        "end": 85,
+        "value": "hotel",
+        "entity": "hotel-type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-type",
+        "start": 41,
+        "end": 51,
+        "confidence_entity": 0.6485961675643921,
+        "value": "guesthouse",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yeah, I'm also looking for a place to stay. I don't like hotels, so a guesthouse would be better. Moderate in price.",
+    "entities": [
+      {
+        "start": 70,
+        "end": 80,
+        "value": "guesthouse",
+        "entity": "hotel-type"
+      },
+      {
+        "start": 98,
+        "end": 106,
+        "value": "Moderate",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-type",
+        "start": 70,
+        "end": 80,
+        "confidence_entity": 0.7345271110534668,
+        "value": "guesthouse",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-pricerange",
+        "start": 98,
+        "end": 106,
+        "confidence_entity": 0.3431742191314697,
+        "value": "Moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, the hotel should be in the east and doesn't need to have free parking.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "east",
+        "entity": "hotel-area"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.3207600712776184,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about an expensive hotel in the south side of town?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 22,
+        "value": "expensive",
+        "entity": "hotel-pricerange"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "south",
+        "entity": "hotel-area"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.38376662135124207,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hotel-area",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.6751372218132019,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for a hotel, can you help?",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "hotel",
+        "entity": "hotel-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "It should be in the centre and be on the expensive side.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "centre",
+        "entity": "hotel-area"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "expensive",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, book it for 4 people and 4 nights starting from tuesday.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Yes",
+        "entity": "hotel-internet"
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "value": "4",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "value": "tuesday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 53,
+        "end": 60,
+        "confidence_entity": 0.6563610434532166,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about for 3 nights?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "3",
+        "entity": "hotel-bookstay"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes please. I need it for 7 people for 3 nights starting on tuesday.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 27,
+        "value": "7",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "value": "3",
+        "entity": "hotel-bookstay"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "tuesday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.6847407221794128,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book it for 3 nights beginning on Tuesday.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 29,
+        "value": "3",
+        "entity": "hotel-bookstay"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "value": "Tuesday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.5879572033882141,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We will be arriving on Sunday and will stay for 5 nights.",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "value": "5",
+        "entity": "hotel-bookstay"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "There will be 8 guests.",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "8",
+        "entity": "hotel-bookpeople"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, I need a train going to cambridge leaving after 21:15 on tuesday departing from broxbourne.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Yes",
+        "entity": "hotel-internet"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "value": "tuesday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Groovy!! Let get a booking for 2 people and 2 nights starting sunday.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 32,
+        "value": "2",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "value": "sunday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 62,
+        "end": 68,
+        "confidence_entity": 0.7046298384666443,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good. Can you get me a room for 2 for 5 nights starting Sunday?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 40,
+        "value": "2",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "value": "5",
+        "entity": "hotel-bookstay"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.5867398381233215,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need the travel day to be Sunday. I'll be going to Cambridge and arrive by 13:45. I'll be leaving from Birmingham New street.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.39066481590270996,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 105,
+        "end": 126,
+        "confidence_entity": 0.5487704277038574,
+        "value": "Birmingham New street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "book it for 7 people and 3 nights starting from monday.",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "7",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "value": "3",
+        "entity": "hotel-bookstay"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "monday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, please book for two nights beginning on Sunday for one person.",
+    "entities": [
+      {
+        "start": 45,
+        "end": 51,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, could you make a reservation for 1 at 20:00 on Saturday?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 39,
+        "value": "1",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "value": "20:00",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 52,
+        "end": 60,
+        "value": "Saturday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 52,
+        "end": 60,
+        "confidence_entity": 0.6722009181976318,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you try for Saturday at 13:00?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "Saturday",
+        "entity": "restaurant-bookday"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "13:00",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.49750328063964844,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book a table at the Backstreet Bistro for 5 people at 16:00 on Thursday.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 53,
+        "value": "Backstreet Bistro",
+        "entity": "restaurant-name"
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "value": "5",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "value": "16:00",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 79,
+        "end": 87,
+        "value": "Thursday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 36,
+        "end": 53,
+        "confidence_entity": 0.46902695298194885,
+        "value": "Backstreet Bistro",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-bookday",
+        "start": 79,
+        "end": 87,
+        "confidence_entity": 0.7788869738578796,
+        "value": "Thursday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes please make a booking for 8 people at 12:30 on friday.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 31,
+        "value": "8",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "value": "12:30",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "friday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.7056767344474792,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please book a table for 4 at the Chinese place at 12:30 on Sunday and give me the reference number.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 25,
+        "value": "4",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "value": "Chinese",
+        "entity": "restaurant-food"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "value": "12:30",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "value": "Sunday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.6707518696784973,
+        "value": "Chinese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-bookday",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.48194873332977295,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "That sounds like they'll have some awesome Chop Suey. Please book me a table for 2 on Tuesday at 12:45.",
+    "entities": [
+      {
+        "start": 81,
+        "end": 82,
+        "value": "2",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 86,
+        "end": 93,
+        "value": "Tuesday",
+        "entity": "restaurant-bookday"
+      },
+      {
+        "start": 97,
+        "end": 102,
+        "value": "12:45",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can we try the same day for 11:45 please? And can I have the reference number as well, thanks.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 33,
+        "value": "11:45",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "No, just an entertainment attraction in the same area as the restaurant. Can you make a suggestion?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 12,
+        "end": 25,
+        "confidence_entity": 0.6290222406387329,
+        "value": "entertainment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, could you book it for 8 people on Monday? I think 16:15 is when we want to be seated.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 29,
+        "value": "8",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "value": "Monday",
+        "entity": "restaurant-bookday"
+      },
+      {
+        "start": 56,
+        "end": 61,
+        "value": "16:15",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.6410529613494873,
+        "value": "Monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, and can you book a table for 1 at 14:15 on Monday, please.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 35,
+        "value": "1",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "14:15",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 48,
+        "end": 54,
+        "value": "Monday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.681815505027771,
+        "value": "Monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, please book it for 2 people at 13:45 on monday.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 25,
+        "value": "2",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "value": "13:45",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "value": "monday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.6121619343757629,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book a table for 5 people on Sunday at 14:15",
+    "entities": [
+      {
+        "start": 33,
+        "end": 34,
+        "value": "5",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "value": "Sunday",
+        "entity": "restaurant-bookday"
+      },
+      {
+        "start": 55,
+        "end": 60,
+        "value": "14:15",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.6062072515487671,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes for 2 at 19:30 on Sunday please. I need the reference number then too.",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "2",
+        "entity": "restaurant-bookpeople"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "19:30",
+        "entity": "restaurant-booktime"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "value": "Sunday",
+        "entity": "restaurant-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.44120311737060547,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Okay well now I need to get a taxi to leave the hotel by 17:45 to the attraction. I will need a contact number and car type.",
+    "entities": [
+      {
+        "start": 57,
+        "end": 62,
+        "value": "17:45",
+        "entity": "taxi-leaveat"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need a 19:15 taxi to take me to Avalon.",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "19:15",
+        "entity": "taxi-leaveat"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "Avalon",
+        "entity": "taxi-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.7437823414802551,
+        "value": "Avalon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Good day. Might you be able to assist me with a taxi going to Corpus Christi leaving sometime after 08:45?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 76,
+        "value": "Corpus Christi",
+        "entity": "taxi-destination"
+      },
+      {
+        "start": 100,
+        "end": 105,
+        "value": "08:45",
+        "entity": "taxi-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 62,
+        "end": 76,
+        "confidence_entity": 0.6860285997390747,
+        "value": "Corpus Christi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to arrive at the Castle Galleries by 11:15.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 40,
+        "value": "Castle Galleries",
+        "entity": "taxi-destination"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "value": "11:15",
+        "entity": "taxi-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 24,
+        "end": 40,
+        "confidence_entity": 0.7300506234169006,
+        "value": "Castle Galleries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd like to leave after 9:30.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "9:30",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "Tuesday",
+        "entity": "train-day"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "value": "kings lynn",
+        "entity": "train-departure"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "value": "9:30",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 67,
+        "end": 76,
+        "value": "cambridge",
+        "entity": "train-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.7139397263526917,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.5586272478103638,
+        "value": "kings lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 67,
+        "end": 76,
+        "confidence_entity": 0.46126019954681396,
+        "value": "cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, I'd like a train leaving after 09:30 departing from Kings Lynn and going to Cambridge. Please take another look?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "09:30",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "value": "Kings Lynn",
+        "entity": "train-departure"
+      },
+      {
+        "start": 80,
+        "end": 89,
+        "value": "Cambridge",
+        "entity": "train-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 56,
+        "end": 66,
+        "confidence_entity": 0.6048687100410461,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please find me a train from cambridge to stansted airport",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "cambridge",
+        "entity": "train-departure"
+      },
+      {
+        "start": 41,
+        "end": 57,
+        "value": "stansted airport",
+        "entity": "train-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 41,
+        "end": 57,
+        "confidence_entity": 0.784098744392395,
+        "value": "stansted airport",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Saturday leaving Cambridge anytime after 20:00 please",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Saturday",
+        "entity": "train-day"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      },
+      {
+        "start": 41,
+        "end": 46,
+        "value": "20:00",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5317752361297607,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I also want to see the travel times for a train going from Kings Lynn from Cambridge on Saturday. It should leave after 09:15.",
+    "entities": [
+      {
+        "start": 59,
+        "end": 69,
+        "value": "Kings Lynn",
+        "entity": "train-departure"
+      },
+      {
+        "start": 75,
+        "end": 84,
+        "value": "Cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 88,
+        "end": 96,
+        "value": "Saturday",
+        "entity": "train-day"
+      },
+      {
+        "start": 120,
+        "end": 125,
+        "value": "09:15",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 59,
+        "end": 69,
+        "confidence_entity": 0.6067407131195068,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 88,
+        "end": 96,
+        "confidence_entity": 0.6039366126060486,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I got that backwards. Need a train leaving Kings Lynn after 9:15 and arriving in Cambridge sometime on Saturday.",
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "value": "Kings Lynn",
+        "entity": "train-departure"
+      },
+      {
+        "start": 81,
+        "end": 90,
+        "value": "Cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 103,
+        "end": 111,
+        "value": "Saturday",
+        "entity": "train-day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.5587891936302185,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 103,
+        "end": 111,
+        "confidence_entity": 0.6658727526664734,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'd like to book a train to stansted airport from cambridge. Can you help?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "stansted airport",
+        "entity": "train-destination"
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "value": "cambridge",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 32,
+        "end": 48,
+        "confidence_entity": 0.7274103164672852,
+        "value": "stansted airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.3659399151802063,
+        "value": "cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "From Cambridge, which is why I asked the Cambridge TownInfo centre.",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "On Saturday. Is there a train that will arrive by 15:15?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 11,
+        "value": "Saturday",
+        "entity": "train-day"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "value": "15:15",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 3,
+        "end": 11,
+        "confidence_entity": 0.5498557090759277,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want a restaurant in the north of Cambridge that is within a moderate price range.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 32,
+        "value": "north",
+        "entity": "restaurant-area"
+      },
+      {
+        "start": 63,
+        "end": 71,
+        "value": "moderate",
+        "entity": "restaurant-pricerange"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 63,
+        "end": 71,
+        "confidence_entity": 0.5198245048522949,
+        "value": "moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to arrive in broxbourne by 13:00.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "broxbourne",
+        "entity": "train-destination"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "13:00",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.45680609345436096,
+        "value": "broxbourne",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Find me a train that leaves on Sunday after 14:00 please",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "Sunday",
+        "entity": "train-day"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "value": "14:00",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.61416095495224,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am leaving norwich going to cambridge on sunday and I need a train that leaves the station any time after 14:00",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "norwich",
+        "entity": "train-departure"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "value": "cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 43,
+        "end": 49,
+        "value": "sunday",
+        "entity": "train-day"
+      },
+      {
+        "start": 108,
+        "end": 113,
+        "value": "14:00",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.3760282099246979,
+        "value": "norwich",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.4714706242084503,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to book a train to norwich that arrives by 16:15.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "norwich",
+        "entity": "train-destination"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "value": "16:15",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.5434360504150391,
+        "value": "norwich",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave on Wednesday from Cambridge.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "Wednesday",
+        "entity": "train-day"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.7302446365356445,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.39277875423431396,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "could you provide details for something in the cheap price range?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 52,
+        "value": "cheap",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Actaully i will be on business so not out much but I do need a train, to cambridge leaving after 21:15",
+    "entities": [
+      {
+        "start": 73,
+        "end": 82,
+        "value": "cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 97,
+        "end": 102,
+        "value": "21:15",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, I need a train going to cambridge leaving after 21:15 on tuesday departing from broxbourne.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Yes",
+        "entity": "hotel-internet"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "value": "cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "value": "21:15",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "value": "tuesday",
+        "entity": "hotel-bookday"
+      },
+      {
+        "start": 85,
+        "end": 95,
+        "value": "broxbourne",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need a train after 21:15.",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "21:15",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Great, thanks for that information on the train. Can you book for a train leaving after 21:15?",
+    "entities": [
+      {
+        "start": 88,
+        "end": 93,
+        "value": "21:15",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need to leave a little after 8:00 on Sunday, and I'm leaving from Cambridge.",
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "value": "8:00",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "Sunday",
+        "entity": "train-day"
+      },
+      {
+        "start": 68,
+        "end": 77,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.5452219843864441,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.44716423749923706,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to take a train from bishops stortford to Cambridge. Ill need to leave after 9:00",
+    "entities": [
+      {
+        "start": 28,
+        "end": 45,
+        "value": "bishops stortford",
+        "entity": "train-departure"
+      },
+      {
+        "start": 49,
+        "end": 58,
+        "value": "Cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 84,
+        "end": 88,
+        "value": "9:00",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.7387230396270752,
+        "value": "bishops stortford",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.3636314272880554,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good. Can you get me a room for 2 for 5 nights starting Sunday?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 40,
+        "value": "2",
+        "entity": "hotel-bookpeople"
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "value": "5",
+        "entity": "hotel-bookstay"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.5867398381233215,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What is the train schedule from birmingham new street like? I need to arrive at 13:45.",
+    "entities": [
+      {
+        "start": 32,
+        "end": 53,
+        "value": "birmingham new street",
+        "entity": "train-departure"
+      },
+      {
+        "start": 80,
+        "end": 85,
+        "value": "13:45",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 32,
+        "end": 53,
+        "confidence_entity": 0.6835355758666992,
+        "value": "birmingham new street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need the travel day to be Sunday. I'll be going to Cambridge and arrive by 13:45. I'll be leaving from Birmingham New street.",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "Sunday",
+        "entity": "hotel-bookday"
+      },
+      {
+        "start": 53,
+        "end": 62,
+        "value": "Cambridge",
+        "entity": "train-destination"
+      },
+      {
+        "start": 77,
+        "end": 82,
+        "value": "13:45",
+        "entity": "train-arriveby"
+      },
+      {
+        "start": 105,
+        "end": 126,
+        "value": "Birmingham New street",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.39066481590270996,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 105,
+        "end": 126,
+        "confidence_entity": 0.5487704277038574,
+        "value": "Birmingham New street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave after 16:45, depart from Birmingham New Street.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "16:45",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 41,
+        "end": 62,
+        "value": "Birmingham New Street",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 41,
+        "end": 62,
+        "confidence_entity": 0.6926724314689636,
+        "value": "Birmingham New Street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The train should leave after 12:45 and should leave on friday. for 2 people please book.",
+    "entities": [
+      {
+        "start": 29,
+        "end": 34,
+        "value": "12:45",
+        "entity": "train-leaveat"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "friday",
+        "entity": "train-day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.6231385469436646,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need a train to go from Cambridge to Norwich.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "Norwich",
+        "entity": "train-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.6365724802017212,
+        "value": "Norwich",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to arrive by 13:45.",
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "value": "13:45",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to leave on Sunday and arrive by 12:15.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Sunday",
+        "entity": "train-day"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "12:15",
+        "entity": "train-arriveby"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.6312774419784546,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, departing from Cambridge. We'll be leaving on Tuesday, hopefully after 15:15.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "value": "Tuesday",
+        "entity": "train-day"
+      },
+      {
+        "start": 76,
+        "end": 81,
+        "value": "15:15",
+        "entity": "train-leaveat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.41794314980506897,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.5532194375991821,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd also need a train leaving the centre going to kings lynn and arriving by 17:00 on monday.",
+    "entities": [
+      {
+        "start": 50,
+        "end": 60,
+        "value": "kings lynn",
+        "entity": "train-destination"
+      },
+      {
+        "start": 77,
+        "end": 82,
+        "value": "17:00",
+        "entity": "train-arriveby"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "value": "monday",
+        "entity": "train-day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 50,
+        "end": 60,
+        "confidence_entity": 0.48208650946617126,
+        "value": "kings lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 86,
+        "end": 92,
+        "confidence_entity": 0.5651490688323975,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, it should depart from Cambridge.",
+    "entities": [
+      {
+        "start": 27,
+        "end": 36,
+        "value": "Cambridge",
+        "entity": "train-departure"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Departing from ely to cambridge.",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "ely",
+        "entity": "train-departure"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "cambridge",
+        "entity": "train-destination"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.6396960020065308,
+        "value": "ely",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you book me 6 tickets please?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "6",
+        "entity": "train-bookpeople"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can you try for Saturday at 13:00?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "Saturday",
+        "entity": "restaurant-bookday"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "value": "13:00",
+        "entity": "restaurant-booktime"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.49750328063964844,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book that train for 4 people please.",
+    "entities": [
+      {
+        "start": 36,
+        "end": 37,
+        "value": "4",
+        "entity": "train-bookpeople"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "That information is very overwhelming. Can you please pick the best option that meets my criteria and book for 6 people.",
+    "entities": [
+      {
+        "start": 111,
+        "end": 112,
+        "value": "6",
+        "entity": "train-bookpeople"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "It's on Tuesday. I need to arrive by 9:30 and need to book for 7 people. Could I also get the reference number too?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "Tuesday",
+        "entity": "train-day"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "value": "9:30",
+        "entity": "train-arriveby"
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "value": "7",
+        "entity": "train-bookpeople"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "That's a lot of choices, how about nightclubs? Can you get me a couple of phone numbers for good ones? I'm hoping to catch DJ Squalour from Ibiza!",
+    "entities": [
+      {
+        "start": 35,
+        "end": 44,
+        "value": "nightclub",
+        "entity": "attraction-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, any suggestions of museums found in the east area of town?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "museum",
+        "entity": "attraction-type"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "east",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Thats ok. I really want something in the centre. How about any suggestions on a good college to visit?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 47,
+        "value": "centre",
+        "entity": "attraction-area"
+      },
+      {
+        "start": 85,
+        "end": 92,
+        "value": "college",
+        "entity": "attraction-type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 85,
+        "end": 92,
+        "confidence_entity": 0.7469137907028198,
+        "value": "college",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Actually, yes. We are traveling into the northern part of town.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "north",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, I am looking to visit the cherry hinton hall and grounds. Can I please have more information on that?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 61,
+        "value": "cherry hinton hall and grounds",
+        "entity": "attraction-name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attraction-name",
+        "start": 31,
+        "end": 49,
+        "confidence_entity": 0.7232452630996704,
+        "value": "cherry hinton hall",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "attraction-name",
+        "start": 54,
+        "end": 61,
+        "confidence_entity": 0.757603645324707,
+        "value": "grounds",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thanks, i'm also looking for some museums.",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "museum",
+        "entity": "attraction-type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yes, do you have any in the centre?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 34,
+        "value": "centre",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like information on pools in the north.",
+    "entities": [
+      {
+        "start": 41,
+        "end": 46,
+        "value": "north",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I think I'd like to visit the centre.",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "centre",
+        "entity": "attraction-area"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "It should be in the centre and be on the expensive side.",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "centre",
+        "entity": "hotel-area"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "expensive",
+        "entity": "hotel-pricerange"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for your recommendation?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 55,
+        "end": 64,
+        "confidence_entity": 0.5369135737419128,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 76,
+        "end": 85,
+        "confidence_entity": 0.509276270866394,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-area",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.6327710151672363,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, I need a restaurant in the west and with expensive pricing.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.7554525136947632,
+        "value": "west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-pricerange",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.4776359796524048,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "It's a place called Don Pasquale Pizzeria.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 20,
+        "end": 41,
+        "confidence_entity": 0.7846686244010925,
+        "value": "Don Pasquale Pizzeria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a restaurant. I would like something cheap that has Chinese food.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 54,
+        "end": 59,
+        "confidence_entity": 0.4390491247177124,
+        "value": "cheap",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 69,
+        "end": 76,
+        "confidence_entity": 0.6473569273948669,
+        "value": "Chinese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Saturday leaving Cambridge anytime after 20:00 please",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5317752361297607,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am also looking for The Riverside Brasserie.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 26,
+        "end": 45,
+        "confidence_entity": 0.8011175394058228,
+        "value": "Riverside Brasserie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking for an expensive restaurant in the centre if you could help me.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.522189199924469,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No need to book it. Thanks. But can you help me find a cheap restaurant in the south?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 55,
+        "end": 60,
+        "confidence_entity": 0.5647642612457275,
+        "value": "cheap",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 79,
+        "end": 84,
+        "confidence_entity": 0.49503886699676514,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, could you recommend a good gastropub?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.7320466041564941,
+        "value": "gastropub",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to find an expensive restaurant and serves european food. Can i also have the address, phone number and its area. ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.5098215937614441,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 50,
+        "end": 58,
+        "confidence_entity": 0.709491491317749,
+        "value": "european",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Where's a good place to eat crossover food in Cambridge?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.700710117816925,
+        "value": "crossover",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about British restaurants in the Centre instead?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.6842328310012817,
+        "value": "British",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.46754249930381775,
+        "value": "Centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would prefer the british food.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.6460322737693787,
+        "value": "british",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want a restaurant in the north of Cambridge that is within a moderate price range.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 63,
+        "end": 71,
+        "confidence_entity": 0.5198245048522949,
+        "value": "moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes I am looking for a moderate priced place to eat in the east. Phone #, postcode and food type please",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.5165640115737915,
+        "value": "moderate",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.6720191240310669,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would prefer Italian but Indian would be good as well. I will need the phone number and postcode of the restaurant. Thanks!",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.6657759547233582,
+        "value": "Italian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.6835783123970032,
+        "value": "Indian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you help me book a table at a chinese restaurant that's in the centre of town?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.6361148953437805,
+        "value": "chinese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 67,
+        "end": 73,
+        "confidence_entity": 0.5982948541641235,
+        "value": "centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need some cheap Chop Suey, please.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.4779006838798523,
+        "value": "cheap",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a restaurant that is in the expensive price range and in the south part of town.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.4490995407104492,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 78,
+        "end": 83,
+        "confidence_entity": 0.4344712793827057,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Let's go with Italian food.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.7429297566413879,
+        "value": "Italian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you help me find an expensive Chinese food restaurant?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.5610308647155762,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.7069957852363586,
+        "value": "Chinese",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in restaurants located in the East.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.5820544958114624,
+        "value": "East",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm looking to go to dinner tonight and am in the mood for some good Bistro in the centre of town, can you find me some options?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 83,
+        "end": 89,
+        "confidence_entity": 0.5596277117729187,
+        "value": "centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hmm... let me think. Let's try maybe something italian instead.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 47,
+        "end": 54,
+        "confidence_entity": 0.6634557247161865,
+        "value": "italian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a particular restaurant. Its name is called travellers rest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 61,
+        "end": 76,
+        "confidence_entity": 0.8051270246505737,
+        "value": "travellers rest",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Heya, can you find me an expensive restaurant with north african food?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.5213849544525146,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.6878999471664429,
+        "value": "african",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Are there any expensive restaurants with gastropub food?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.47829553484916687,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-food",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.6905349493026733,
+        "value": "gastropub",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, the one in the east please.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.499321848154068,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi, what can you tell me about the bangkok city restaurant?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 35,
+        "end": 47,
+        "confidence_entity": 0.6674342751502991,
+        "value": "bangkok city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for your recommendation?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 55,
+        "end": 64,
+        "confidence_entity": 0.5369135737419128,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 76,
+        "end": 85,
+        "confidence_entity": 0.509276270866394,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-area",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.6327710151672363,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi there! Can you give me some info on Cityroomz?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-name",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.7484003901481628,
+        "value": "Cityroomz",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a hotel named alyesbray lodge guest house.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-name",
+        "start": 31,
+        "end": 58,
+        "confidence_entity": 0.7792040109634399,
+        "value": "alyesbray lodge guest house",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, I would like an expensive hotel with free parking.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.4568651020526886,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "That sounds nice but I would like to see about a guesthouse with free wifi.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-type",
+        "start": 49,
+        "end": 59,
+        "confidence_entity": 0.6789541244506836,
+        "value": "guesthouse",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, I don't really care about price. Just something in the north that includes wifi.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-area",
+        "start": 59,
+        "end": 64,
+        "confidence_entity": 0.47565510869026184,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm interested in restaurants located in the East.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.5820544958114624,
+        "value": "East",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Oh, ok. I really don't want to stay at a guesthouse though. Can you recommend a hotel instead?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-type",
+        "start": 41,
+        "end": 51,
+        "confidence_entity": 0.6485961675643921,
+        "value": "guesthouse",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm planning a trip to Cambridge and I was told the A and B Guest House was a great place to stay. Can you give me information about it?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-name",
+        "start": 52,
+        "end": 71,
+        "confidence_entity": 0.7134612798690796,
+        "value": "A and B Guest House",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Oh wait, you know what? I forgot to ask about star ratings. What's the star rating on the A and B Guest House, please?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-name",
+        "start": 90,
+        "end": 109,
+        "confidence_entity": 0.7543025016784668,
+        "value": "A and B Guest House",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yeah, I'm also looking for a place to stay. I don't like hotels, so a guesthouse would be better. Moderate in price.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-type",
+        "start": 70,
+        "end": 80,
+        "confidence_entity": 0.7345271110534668,
+        "value": "guesthouse",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-pricerange",
+        "start": 98,
+        "end": 106,
+        "confidence_entity": 0.3431742191314697,
+        "value": "Moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, the hotel should be in the east and doesn't need to have free parking.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-area",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.3207600712776184,
+        "value": "east",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a high priced hotel in the north side of town",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-area",
+        "start": 44,
+        "end": 49,
+        "confidence_entity": 0.5383981466293335,
+        "value": "north",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about an expensive hotel in the south side of town?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.38376662135124207,
+        "value": "expensive",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "hotel-area",
+        "start": 36,
+        "end": 41,
+        "confidence_entity": 0.6751372218132019,
+        "value": "south",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, book it for 4 people and 4 nights starting from tuesday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 53,
+        "end": 60,
+        "confidence_entity": 0.6563610434532166,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes please. I need it for 7 people for 3 nights starting on tuesday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 60,
+        "end": 67,
+        "confidence_entity": 0.6847407221794128,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book it for 3 nights beginning on Tuesday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 50,
+        "end": 57,
+        "confidence_entity": 0.5879572033882141,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Perfect. I'll need a room for myself, for five nights on tuesday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.6354700326919556,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Groovy!! Let get a booking for 2 people and 2 nights starting sunday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 62,
+        "end": 68,
+        "confidence_entity": 0.7046298384666443,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good. Can you get me a room for 2 for 5 nights starting Sunday?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.5867398381233215,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need the travel day to be Sunday. I'll be going to Cambridge and arrive by 13:45. I'll be leaving from Birmingham New street.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.39066481590270996,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 105,
+        "end": 126,
+        "confidence_entity": 0.5487704277038574,
+        "value": "Birmingham New street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, could you make a reservation for 1 at 20:00 on Saturday?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 52,
+        "end": 60,
+        "confidence_entity": 0.6722009181976318,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you try for Saturday at 13:00?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.49750328063964844,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "6 people will be dining",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookpeople",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.42525672912597656,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book a table at the Backstreet Bistro for 5 people at 16:00 on Thursday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-name",
+        "start": 36,
+        "end": 53,
+        "confidence_entity": 0.46902695298194885,
+        "value": "Backstreet Bistro",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-bookday",
+        "start": 79,
+        "end": 87,
+        "confidence_entity": 0.7788869738578796,
+        "value": "Thursday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes please make a booking for 8 people at 12:30 on friday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.7056767344474792,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please book a table for 4 at the Chinese place at 12:30 on Sunday and give me the reference number.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 33,
+        "end": 40,
+        "confidence_entity": 0.6707518696784973,
+        "value": "Chinese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-bookday",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.48194873332977295,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeah, could you book it for 8 people on Monday? I think 16:15 is when we want to be seated.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.6410529613494873,
+        "value": "Monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, and can you book a table for 1 at 14:15 on Monday, please.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 48,
+        "end": 54,
+        "confidence_entity": 0.681815505027771,
+        "value": "Monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, please book it for 2 people at 13:45 on monday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.6121619343757629,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to book a table for 5 people on Sunday at 14:15",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.6062072515487671,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes for 2 at 19:30 on Sunday please. I need the reference number then too.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.44120311737060547,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need a 19:15 taxi to take me to Avalon.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.7437823414802551,
+        "value": "Avalon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I will be departing from Primavera.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "taxi-departure",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.7353682518005371,
+        "value": "Primavera",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Good day. Might you be able to assist me with a taxi going to Corpus Christi leaving sometime after 08:45?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 62,
+        "end": 76,
+        "confidence_entity": 0.6860285997390747,
+        "value": "Corpus Christi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need it to pick me up from gourmet burger kitchen.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "taxi-departure",
+        "start": 29,
+        "end": 51,
+        "confidence_entity": 0.6680858135223389,
+        "value": "gourmet burger kitchen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to arrive at the Castle Galleries by 11:15.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "taxi-destination",
+        "start": 24,
+        "end": 40,
+        "confidence_entity": 0.7300506234169006,
+        "value": "Castle Galleries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave on Tuesday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.6708056330680847,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.7139397263526917,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.5586272478103638,
+        "value": "kings lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 67,
+        "end": 76,
+        "confidence_entity": 0.46126019954681396,
+        "value": "cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, I'd like a train leaving after 09:30 departing from Kings Lynn and going to Cambridge. Please take another look?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 56,
+        "end": 66,
+        "confidence_entity": 0.6048687100410461,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please find me a train from cambridge to stansted airport",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 41,
+        "end": 57,
+        "confidence_entity": 0.784098744392395,
+        "value": "stansted airport",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Saturday leaving Cambridge anytime after 20:00 please",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5317752361297607,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I also want to see the travel times for a train going from Kings Lynn from Cambridge on Saturday. It should leave after 09:15.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 59,
+        "end": 69,
+        "confidence_entity": 0.6067407131195068,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 88,
+        "end": 96,
+        "confidence_entity": 0.6039366126060486,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I got that backwards. Need a train leaving Kings Lynn after 9:15 and arriving in Cambridge sometime on Saturday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.5587891936302185,
+        "value": "Kings Lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 103,
+        "end": 111,
+        "confidence_entity": 0.6658727526664734,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'd like to book a train to stansted airport from cambridge. Can you help?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 32,
+        "end": 48,
+        "confidence_entity": 0.7274103164672852,
+        "value": "stansted airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.3659399151802063,
+        "value": "cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "On Saturday. Is there a train that will arrive by 15:15?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 3,
+        "end": 11,
+        "confidence_entity": 0.5498557090759277,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want a restaurant in the north of Cambridge that is within a moderate price range.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-pricerange",
+        "start": 63,
+        "end": 71,
+        "confidence_entity": 0.5198245048522949,
+        "value": "moderate",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am also looking for a train that goes to broxbourne on monday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.539833128452301,
+        "value": "broxbourne",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.4923241138458252,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to arrive in broxbourne by 13:00.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.45680609345436096,
+        "value": "broxbourne",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Find me a train that leaves on Sunday after 14:00 please",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.61416095495224,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am leaving norwich going to cambridge on sunday and I need a train that leaves the station any time after 14:00",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.3760282099246979,
+        "value": "norwich",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.4714706242084503,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to book a train to norwich that arrives by 16:15.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.5434360504150391,
+        "value": "norwich",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave on Wednesday from Cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.7302446365356445,
+        "value": "Wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.39277875423431396,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for a train to Ely.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.5766726136207581,
+        "value": "Ely",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to leave a little after 8:00 on Sunday, and I'm leaving from Cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.5452219843864441,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 68,
+        "end": 77,
+        "confidence_entity": 0.44716423749923706,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to take a train from bishops stortford to Cambridge. Ill need to leave after 9:00",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.7387230396270752,
+        "value": "bishops stortford",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.3636314272880554,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave on Sunday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.6568219065666199,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sounds good. Can you get me a room for 2 for 5 nights starting Sunday?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.5867398381233215,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What is the train schedule from birmingham new street like? I need to arrive at 13:45.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 32,
+        "end": 53,
+        "confidence_entity": 0.6835355758666992,
+        "value": "birmingham new street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need the travel day to be Sunday. I'll be going to Cambridge and arrive by 13:45. I'll be leaving from Birmingham New street.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-bookday",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.39066481590270996,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-departure",
+        "start": 105,
+        "end": 126,
+        "confidence_entity": 0.5487704277038574,
+        "value": "Birmingham New street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm wanting a train that leaves on Friday and goes to Cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.7106732130050659,
+        "value": "Friday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.43863916397094727,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave after 16:45, depart from Birmingham New Street.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 41,
+        "end": 62,
+        "confidence_entity": 0.6926724314689636,
+        "value": "Birmingham New Street",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'm planning a trip to Cambridge and I was told the A and B Guest House was a great place to stay. Can you give me information about it?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hotel-name",
+        "start": 52,
+        "end": 71,
+        "confidence_entity": 0.7134612798690796,
+        "value": "A and B Guest House",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Okay, sounds good. Also I need to get a train from Liverpool street to Cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 71,
+        "end": 80,
+        "confidence_entity": 0.4372817575931549,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The train should leave after 12:45 and should leave on friday. for 2 people please book.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.6231385469436646,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Does that train leave on Friday?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.745599627494812,
+        "value": "Friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need a train to go from Cambridge to Norwich.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.6365724802017212,
+        "value": "Norwich",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am traveling on Sunday",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.5371079444885254,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I plan to leave from stevenage to go to Cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.5484701991081238,
+        "value": "stevenage",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-destination",
+        "start": 40,
+        "end": 49,
+        "confidence_entity": 0.4412984549999237,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to leave on Sunday and arrive by 12:15.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-day",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.6312774419784546,
+        "value": "Sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need to get a train going to Stevenage.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-destination",
+        "start": 31,
+        "end": 40,
+        "confidence_entity": 0.48598170280456543,
+        "value": "Stevenage",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, departing from Cambridge. We'll be leaving on Tuesday, hopefully after 15:15.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.41794314980506897,
+        "value": "Cambridge",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.5532194375991821,
+        "value": "Tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I'd also need a train leaving the centre going to kings lynn and arriving by 17:00 on monday.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 50,
+        "end": 60,
+        "confidence_entity": 0.48208650946617126,
+        "value": "kings lynn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "train-day",
+        "start": 86,
+        "end": 92,
+        "confidence_entity": 0.5651490688323975,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Departing from ely to cambridge.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "train-departure",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.6396960020065308,
+        "value": "ely",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you try for Saturday at 13:00?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-bookday",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.49750328063964844,
+        "value": "Saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about British restaurants in the Centre instead?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.6842328310012817,
+        "value": "British",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.46754249930381775,
+        "value": "Centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's a good college to visit near the restaurant?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.7473711371421814,
+        "value": "college",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Any college will be fine what do you recommend? I need the phone number for whichever you pick.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.6875408291816711,
+        "value": "college",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thanks! Can you also tell me if there are any multiple sports attractions in the center of town?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 46,
+        "end": 61,
+        "confidence_entity": 0.674363374710083,
+        "value": "multiple sports",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thats ok. I really want something in the centre. How about any suggestions on a good college to visit?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 85,
+        "end": 92,
+        "confidence_entity": 0.7469137907028198,
+        "value": "college",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yes, I am looking to visit the cherry hinton hall and grounds. Can I please have more information on that?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-name",
+        "start": 31,
+        "end": 49,
+        "confidence_entity": 0.7232452630996704,
+        "value": "cherry hinton hall",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "attraction-name",
+        "start": 54,
+        "end": 61,
+        "confidence_entity": 0.757603645324707,
+        "value": "grounds",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you help me book a table at a chinese restaurant that's in the centre of town?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "restaurant-food",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.6361148953437805,
+        "value": "chinese",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "restaurant-area",
+        "start": 67,
+        "end": 73,
+        "confidence_entity": 0.5982948541641235,
+        "value": "centre",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for some type of entertainment in the same area as the restaurant, please.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 30,
+        "end": 43,
+        "confidence_entity": 0.676360011100769,
+        "value": "entertainment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No, just an entertainment attraction in the same area as the restaurant. Can you make a suggestion?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 12,
+        "end": 25,
+        "confidence_entity": 0.6290222406387329,
+        "value": "entertainment",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thank you. I am also looking for a park to go to.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 35,
+        "end": 39,
+        "confidence_entity": 0.7109243273735046,
+        "value": "park",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Great! Please, give me the address of the park.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 42,
+        "end": 46,
+        "confidence_entity": 0.7971791625022888,
+        "value": "park",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about Jesus Green Outdoor pool. Could I have their address and phone number.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-name",
+        "start": 10,
+        "end": 34,
+        "confidence_entity": 0.5256670117378235,
+        "value": "Jesus Green Outdoor pool",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am getting ready to go off to college. I thought while I was in town maybe I could visit one.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.8019550442695618,
+        "value": "college",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thank you. I'm also looking for a museum to go to in the same area.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-type",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.7855766415596008,
+        "value": "museum",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "One more thing. Can you give me information about an attraction called Ruskin Gallery?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attraction-name",
+        "start": 71,
+        "end": 85,
+        "confidence_entity": 0.8470284342765808,
+        "value": "Ruskin Gallery",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

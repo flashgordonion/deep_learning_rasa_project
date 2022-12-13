@@ -1,0 +1,103 @@
+{
+  "book_train": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 19,
+    "confused_with": {
+      "find_train": 9,
+      "book_restaurant": 7,
+      "find_restaurant": 1
+    }
+  },
+  "find_restaurant": {
+    "precision": 0.7816091954022989,
+    "recall": 0.9066666666666666,
+    "f1-score": 0.8395061728395062,
+    "support": 75,
+    "confused_with": {
+      "find_hotel": 4,
+      "find_train": 2
+    }
+  },
+  "find_taxi": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16,
+    "confused_with": {
+      "find_train": 7,
+      "find_restaurant": 5,
+      "find_hotel": 2
+    }
+  },
+  "find_hotel": {
+    "precision": 0.7323943661971831,
+    "recall": 0.896551724137931,
+    "f1-score": 0.806201550387597,
+    "support": 58,
+    "confused_with": {
+      "find_restaurant": 5,
+      "find_attraction": 1
+    }
+  },
+  "find_train": {
+    "precision": 0.7633587786259542,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8298755186721992,
+    "support": 110,
+    "confused_with": {
+      "find_hotel": 6,
+      "find_restaurant": 2
+    }
+  },
+  "book_hotel": {
+    "precision": 0.9473684210526315,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.7659574468085106,
+    "support": 28,
+    "confused_with": {
+      "find_train": 8,
+      "find_hotel": 2
+    }
+  },
+  "book_restaurant": {
+    "precision": 0.78125,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8064516129032259,
+    "support": 30,
+    "confused_with": {
+      "find_train": 2,
+      "find_attraction": 2
+    }
+  },
+  "find_attraction": {
+    "precision": 0.8363636363636363,
+    "recall": 0.7796610169491526,
+    "f1-score": 0.8070175438596492,
+    "support": 59,
+    "confused_with": {
+      "find_restaurant": 6,
+      "find_hotel": 4
+    }
+  },
+  "accuracy": 0.7822784810126582,
+  "macro avg": {
+    "precision": 0.605293049705213,
+    "recall": 0.6210200991293919,
+    "f1-score": 0.606876230683836,
+    "support": 395
+  },
+  "weighted avg": {
+    "precision": 0.7199450604516259,
+    "recall": 0.7822784810126582,
+    "f1-score": 0.7449705112021262,
+    "support": 395
+  },
+  "micro avg": {
+    "precision": 0.7822784810126582,
+    "recall": 0.7822784810126582,
+    "f1-score": 0.7822784810126582,
+    "support": 395
+  }
+}
